@@ -1,0 +1,18 @@
+echo "vendor/
+node_modules/
+storage/
+bootstrap/cache/
+.env
+.env.example
+public/storage
+public/hot
+public/mix-manifest.json
+public/*.key
+database/database.sqlite
+database/database.sqlite-journal
+.DS_Store
+npm-debug.log
+yarn-error.log
+homestead.yaml
+Homestead.json
+" > .gitignore
